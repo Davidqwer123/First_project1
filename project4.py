@@ -58,6 +58,10 @@ class Login(Base):
 def f_1():
     return render_template('host2.html')
 
+@app.route('/dz_route')
+def f_1():
+    return 'Нова зміна)'
+
 
 @app.route('/login_pg')
 def f_2():
