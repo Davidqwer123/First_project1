@@ -142,7 +142,9 @@ def f_7():
     return jsonify(data), 200
 
 
-
+@app.route('/qwer')
+def f_6():
+    return 'qweqewr123'
 
 
 if __name__ == '__main__':
